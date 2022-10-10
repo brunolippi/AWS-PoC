@@ -1,0 +1,42 @@
+{
+  "name": "aws-poc",
+  "version": "1.0.0",
+  "description": "AWS Proof of Concept",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "tsc && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunolippi/AWS-PoC.git"
+  },
+  "keywords": [
+    "aws",
+    "poc",
+    "typescript",
+    "certification"
+  ],
+  "author": "Bruno Lippi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunolippi/AWS-PoC/issues"
+  },
+  "homepage": "https://github.com/brunolippi/AWS-PoC#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.7.13",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.186.0",
+    "@aws-sdk/s3-request-presigner": "^3.186.0",
+    "@aws-sdk/types": "^3.186.0",
+    "aws-sdk": "^2.1231.0",
+    "axios": "^1.1.2",
+    "cuid": "^2.1.8",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}
